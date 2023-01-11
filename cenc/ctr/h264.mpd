@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Generated with https://github.com/google/shaka-packager version v2.6.1-634af65-release-->
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT1379.876953125S">
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT410.40899658203125S">
   <Period id="0">
-    <AdaptationSet id="0" contentType="video" width="1920" height="1080" frameRate="16000/256" subsegmentAlignment="true" par="16:9">
+    <AdaptationSet id="0" contentType="video" width="3840" height="2160" frameRate="16000/672" subsegmentAlignment="true" par="16:9">
       <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="6d76f25c-b17f-5e16-b8ea-ef6bbf582d8e"/>
       <ContentProtection value="MSPR 2.0" schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
         <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBYAFAASgAyAGIAWAArAHgARgBsADYANAA2AHUAOQByAHYAMQBnAHQAagBnAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAcABTAFEAUwAwAEYASABtAEoARQA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
@@ -11,10 +11,10 @@
       <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
         <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEG128lyxf14WuOrva79YLY5I49yVmwY=</cenc:pssh>
       </ContentProtection>
-      <Representation id="0" bandwidth="17737666" codecs="avc1.640032" mimeType="video/mp4" sar="1:1">
+      <Representation id="0" bandwidth="13109219" codecs="vp09.00.50.08.01.01.01.01.00" mimeType="video/mp4" sar="1:1">
         <BaseURL>h264_1080p.mp4</BaseURL>
-        <SegmentBase indexRange="1696-3275" timescale="16000">
-          <Initialization range="0-1695"/>
+        <SegmentBase indexRange="1592-2439" timescale="16000">
+          <Initialization range="0-1591"/>
         </SegmentBase>
       </Representation>
     </AdaptationSet>
